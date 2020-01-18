@@ -32,14 +32,6 @@ class ItemCollectionViewCell: UICollectionViewCell {
             let url = URL(string: smallImageURL)!
             self.imageView.af_setImage(withURL: url, placeholderImage: UIImage(named: "no_image"), imageTransition: .crossDissolve(1))
         }
-        
-        let tapGesture = UITapGestureRecognizer()
-        self.titleLabel.addGestureRecognizer(tapGesture)
-        tapGesture.rx.event.bind(onNext: { [unowned self] recognizer in
-            if let url = self.item.affiliateURL{
-                UIApplication.shared.open(URL(string:url)!, options: [:], completionHandler: nil)
-            }
-        }).disposed(by: self.disposeBag)
     }
     
     func clear() {

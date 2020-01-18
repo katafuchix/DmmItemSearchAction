@@ -24,7 +24,8 @@ public struct ItemEntity: Codable, Equatable {
 
     public let URL: String?
     public let affiliateURL: String?
-
+    public let affiliateURLsp: String?
+    
     public let imageURL: ImageURLEntity?
 
     public let price: PricesEntity?
