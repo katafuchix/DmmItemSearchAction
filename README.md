@@ -23,12 +23,17 @@ after put Constants.swift in this project, pod install.
 - creating CollectionView with RxDataSources
 - extended MBProgressHUD with Reactive.
 - example of Action, input/output parameters base.
+- API call with paging in Rx, Action
 
 ### Screen capture
 <div>
-<img src="https://user-images.githubusercontent.com/6063541/41900619-1a527118-796a-11e8-977d-f7b15c9f80d3.png" width="250">
+<img src="https://user-images.githubusercontent.com/6063541/72665368-3e46b180-3a4b-11ea-8c65-24922ac7cc70.png" width="250">
 　
-<img src="https://user-images.githubusercontent.com/6063541/41900620-1aefa136-796a-11e8-8c33-dfcfcad06893.png" width="250">
-　
-<img src="https://user-images.githubusercontent.com/6063541/41900623-1bba14ac-796a-11e8-982e-ce184b589b01.png" width="250">
+<img src="https://user-images.githubusercontent.com/6063541/72665419-a85f5680-3a4b-11ea-8c74-d9c65991665a.png" width="250">
+</div>
+
+<div>
+<img src="https://user-images.githubusercontent.com/6063541/72665397-73530400-3a4b-11ea-95f1-48411756291d.png" width="250">
+    
+<img src="https://user-images.githubusercontent.com/6063541/72665400-8239b680-3a4b-11ea-8e2c-6060499d5db4.png" width="250">
 </div>
