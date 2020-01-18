@@ -34,6 +34,6 @@ after put Constants.swift in this project, pod install.
 
 <div>
 <img src="https://user-images.githubusercontent.com/6063541/72665397-73530400-3a4b-11ea-95f1-48411756291d.png" width="250">
-    
+　
 <img src="https://user-images.githubusercontent.com/6063541/72665436-d93f8b80-3a4b-11ea-8688-b00e54503242.png" width="250">
 </div>
